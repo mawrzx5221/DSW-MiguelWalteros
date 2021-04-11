@@ -1,12 +1,62 @@
-header{
-    background-color: dimgray;
-    padding: 20px;
-}
-    nav{
-        background-color: black;
-        color: blanchedalmond;
-        padding: 10px;
-    }
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .menu-area a {
+            
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #fff;
+            background: black;
+            height: 50px;
+            text-decoration: none;
+        }
+
+        .menu-area a:hover {
+            background: tomato;
+            color: #fff;
+
+        }
+
+        .menu-area ul {
+            
+            list-style: none;
+            display: flex;
+            
+        }
+
+        .menu-area li {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu-area li:hover .dropdown-1>li {
+            top: 0;
+            display: block;
+        }
+
+        .dropdown-1 li {
+            display: none;
+            position: relative;
+        }
+
+        .dropdown-1 {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .dropdown-1 li:hover {
+            display: block;
+        }
+
+     
     aside{
         float: left;
         width: 30%;
@@ -16,7 +66,7 @@ header{
     section{
         float: left;
         width: 70%;
-        background-color: blueviolet;
+        background-color: floralwhite;
     }
     
     footer{
