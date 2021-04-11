@@ -57,25 +57,26 @@
         }
 
      
-    aside{
-        float: left;
-        width: 30%;
-        background-color: slategrey;
-        color: blanchedalmond;
-    }
-    section{
-        float: left;
-        width: 70%;
-        background-color: floralwhite;
+        aside{
+            float: left;
+            width: 30%;
+            background-color: slategrey;
+            color: blanchedalmond;
+        }
+        section{
+            float: left;
+            width: 70%;
+            background-color: floralwhite;
+        }
+        
+        footer{
+            background-color: black;
+            color: blanchedalmond;
+            padding: 10px;
+        }
+    .Contenedor::after{
+        content: "";
+        display: block;
+        clear: both;
     }
     
-    footer{
-        background-color: black;
-        color: blanchedalmond;
-        padding: 10px;
-    }
-.Contenedor::after{
-    content: "";
-    display: block;
-    clear: both;
-}
