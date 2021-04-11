@@ -1,7 +1,8 @@
     * {
-            margin: 0;
+            margin: 0px;
             padding: 0;
             box-sizing: border-box;
+            background: rgb(211, 211, 211);
         }
 
         .menu-area a {
@@ -60,18 +61,18 @@
         aside{
             float: left;
             width: 30%;
-            background-color: slategrey;
-            color: blanchedalmond;
+            background-color: rgb(211, 211, 211);
+            color: rgb(211, 211, 211);
         }
         section{
             float: left;
             width: 70%;
-            background-color: floralwhite;
+            background-color: rgb(211, 211, 211);
         }
         
         footer{
             background-color: black;
-            color: blanchedalmond;
+            color: rgb(211, 211, 211);
             padding: 10px;
         }
     .Contenedor::after{
